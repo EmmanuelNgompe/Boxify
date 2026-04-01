@@ -1,0 +1,55 @@
+.listContact {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    height: 100%;
+    padding: 10px;
+    row-gap: 2px;
+}
+h4 {
+    margin: 0;
+}
+h3 {
+    margin: 8px 0;
+}
+
+.grd-bloc-contact {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background: white;
+    /* border-radius: 16px; */
+    padding:0px;
+    overflow: auto;
+}
+.bloc-contact {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    /* border: 2px solid #9197B3; */
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.PP{
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+    width: 40px; 
+    height: 40px;
+    margin-right: 5px;
+}
+
+
+
+
+/* Scrollbar globale */
+.grd-bloc-contact::-webkit-scrollbar {
+  width: 0px;              /* largeur de la barre verticale */
+    transition: 0.3s ease;
+
+  /* height: 10px;             hauteur de la barre horizontale */
+}
+
+

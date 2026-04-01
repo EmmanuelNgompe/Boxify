@@ -1,0 +1,39 @@
+.button{
+  display: flex;
+  padding: 10px;
+  margin: 3%;
+  background: white;
+  backdrop-filter: blur(12px);          /* applique le flou en arrière-plan */
+  border-radius: 16px;                  /* arrondis doux */
+  box-shadow: 0 4px 20px rgba(173, 216, 230, 0.25); /* bleu clair transparent */ 
+  overflow: hidden;
+  width: fit-content;
+}
+.button:hover {
+  transform: scale(1.05);
+}
+.button1 {
+  margin-right: 10px;
+  background-color: white;
+  display: flex;
+  font-size: large;
+  width: 200px;
+  padding: 10px;
+  font-weight: 700;
+  align-items: center;
+  transition: 0.3s ease;
+  border: none;
+  }
+.button1:hover {
+  background-color: rgb(255,180,120);
+  border-radius: 10px;
+  color: white;
+  transform: scale(1.05);
+}
+.button1:not(:first-child) {
+  border-left: 1px solid #9197b3;
+}
+.icone2 {
+  width: 60px;
+  height: 35px; 
+}

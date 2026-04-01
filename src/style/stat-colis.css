@@ -1,0 +1,75 @@
+.stat-colis {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+  margin: 1%;
+  width: 80%;
+  /* height: 20%; */
+}
+
+.stat-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* gap: 8px; */
+}
+
+.stat-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  margin: 5px;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+.arrow.up {
+  color: green;
+}
+
+.arrow.down {
+  color: red;
+}
+
+.stat-subtitle {
+  font-size: 14px;
+  color: #777;
+  margin: 0px;
+}
+
+.stat-link {
+  font-size: 14px;
+  color: #d4a017;
+  text-decoration: underline;
+}
+
+.activity-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.activity-text {
+  text-align: center;
+}
+
+.gauge {
+  transform: scale(0.8);
+}

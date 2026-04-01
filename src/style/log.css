@@ -1,0 +1,106 @@
+.login-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, #add8e6, #ffe0ca);
+  overflow: hidden;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 50%;
+  /* height: 100%; */
+  border-left: 1px solid #9197b3;
+}
+.logo{
+  width: 150px;
+  height: 40px;
+  border: none;
+  margin-top: 40px;
+  margin-bottom: 20px ;
+  margin: auto;
+}
+h2 {
+  margin: 10px auto;
+}
+
+.google-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: auto;
+  width: 70%;
+  cursor: pointer;
+}
+.google-container:hover {
+  background-color: rgb(255,180,120);
+  border-radius: 10px;
+}
+.ou {
+  color: rgb(255,180,120);
+  font-size: 12px;
+  margin: auto;
+}
+
+.google {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+label{
+  font-size: 15px;
+  margin-left: 100px;
+}
+p {
+  font-size: 15px;
+}
+.input {
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin: auto;
+}
+.input:focus {
+  border-color: rgb(255,180,120);
+  outline: none;
+  transform: scale(1.02);
+}
+.sign-in {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 70%;
+}
+.register {
+  text-decoration: none;
+  color: rgb(255, 215, 182);
+  margin-left: auto;
+}
+.login-button {
+  width: 70%;
+  height: 40px;
+  border-radius: 5px;
+  color:#000;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+.login-button:hover {
+  background-color: rgb(255,180,120);
+}
+
+.fond-container {
+  width: 50%;
+  height: 100%;
+}
+.fond {
+  width:100%;
+  height:100%;
+}

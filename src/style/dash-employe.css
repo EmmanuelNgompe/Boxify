@@ -1,0 +1,15 @@
+.dash-employe {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.right-content {
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+}

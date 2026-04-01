@@ -1,0 +1,72 @@
+.rectangle {
+    display: flex;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+}
+.updateProfil {
+    display: flex;
+    background-color: white;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 0 auto;
+    height: fit-content;
+    width: 20%;
+}
+.header-profil {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  margin: 0 auto;
+}
+
+.element-profil {
+  padding: 5px;
+  border: none;
+  background-color: none;
+  border-bottom: 1.5px solid #9197B3;
+  width: auto;
+  /* overflow:; */
+}
+.input-profil {
+  border: none;
+  background-color: #ffffff;
+}
+.input-profil:focus {
+  outline: none;
+  border: none;
+}
+
+.btn-annuler {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 5px;
+  /* border-radius: 5px; */
+  cursor: pointer;
+}
+.div-button {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1.5px solid rgb(255,180,120);
+}
+
+.btn-sauvegarder {
+  background-color: rgb(255, 180, 120);
+  color: white;
+  border: 1.5px solid #ffb478;
+  padding: 5px;
+  /* border-radius: 5px; */
+  cursor: pointer;
+}
